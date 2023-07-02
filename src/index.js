@@ -29,16 +29,16 @@ const router = createBrowserRouter([
 
 
 {
-  path:"Prof",
+  path:"/GrowthYourSkillsReact/Prof",
   element: <Prof_page/>,
 },
 
 {
-  path:"Cours",
+  path:"/GrowthYourSkillsReact/Cours",
   element: <Cours_page/>,
 },
 {
-  path:"HowItWorks",
+  path:"/GrowthYourSkillsReact/HowItWorks",
   element: <HowItWorks_page/>,
 },
 

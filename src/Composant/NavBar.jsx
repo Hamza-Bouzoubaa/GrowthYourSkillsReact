@@ -6,7 +6,7 @@ function Navbar() {
   return (
     
     <nav className="navbar navbar-expand-lg navbar-dark bg-black">
-      <a className="navbar-brand mx-3" href="/">
+      <a className="navbar-brand mx-3" href="/GrowthYourSkillsReact/">
         <img src={`${process.env.PUBLIC_URL}/logo.png`}  alt="Logo" height="50" width="142" />
       </a>
       <button
@@ -23,13 +23,13 @@ function Navbar() {
       <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link text-white " href="Prof">Find a mentor</a>
+            <a className="nav-link text-white " href="/GrowthYourSkillsReact/Prof">Find a mentor</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="HowItWorks">How it works</a>
+            <a className="nav-link text-white" href="/GrowthYourSkillsReact/HowItWorks">How it works</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="Cours">Get started</a>
+            <a className="nav-link text-white" href="/GrowthYourSkillsReact/Cours">Get started</a>
           </li>
           
         </ul>
