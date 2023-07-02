@@ -18,35 +18,28 @@ Route,
 } from "react-router-dom";
 
 const router = createBrowserRouter([
-{
-  path:"/",
-  element: <App/>,
-},
-{
-  path:"/GrowthYourSkillsReact/Booking",
-  element: <BookingPage/>,
-},
-{
-  path:"/GrowthYourSkillsReact",
-  element: <App/>,
-},
-
-
-{
-  path:"/GrowthYourSkillsReact/Prof",
-  element: <Prof_page/>,
-},
-
-{
-  path:"/GrowthYourSkillsReact/Cours",
-  element: <Cours_page/>,
-},
-{
-  path:"/GrowthYourSkillsReact/HowItWorks",
-  element: <HowItWorks_page/>,
-},
-
+  {
+    path: "/GrowthYourSkillsReact/",
+    element: <App />,
+  },
+  {
+    path: "/GrowthYourSkillsReact/Booking",
+    element: <BookingPage />,
+  },
+  {
+    path: "/GrowthYourSkillsReact/Prof",
+    element: <Prof_page />,
+  },
+  {
+    path: "/GrowthYourSkillsReact/Cours",
+    element: <Cours_page />,
+  },
+  {
+    path: "/GrowthYourSkillsReact/HowItWorks",
+    element: <HowItWorks_page />,
+  },
 ]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
