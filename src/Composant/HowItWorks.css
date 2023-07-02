@@ -1,15 +1,17 @@
 .how-it-works-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 10px;
     text-align: center;
-    background-color: #f7f7f7;
+    background-color: #c0baba15;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .title {
     font-size: 28px;
+    margin-top: 0px;
+    text-decoration: underline;
     margin-bottom: 40px;
   }
   

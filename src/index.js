@@ -21,6 +21,12 @@ const router = createBrowserRouter([
   path:"/",
   element: <App/>,
 },
+{
+  path:"/GrowthYourSkillsReact",
+  element: <App/>,
+},
+
+
 
 {
   path:"Prof",

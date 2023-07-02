@@ -37,7 +37,7 @@ function Main_Page() {
 <div className='section2'>
     <h1 className='section-text2'>How does it work?</h1>
     <div class="center-image">
-    <img className='mb-3' src="/steps.png" alt="Logo" height="321" width="1224" />
+    <img className='mb-3' src={`${process.env.PUBLIC_URL}/steps.png`}  alt="Logo" height="321" width="1224" />
   </div>
 
 

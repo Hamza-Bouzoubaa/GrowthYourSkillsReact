@@ -8,7 +8,7 @@ function Footer() {
         <div className="row align-items-center">
           <div className="col-md-1 text-left"> {/* Added 'text-left' class */}
             <a className="navbar-brand text-white mr-3" href="#">
-                <img src="/Logo.png" alt="Logo" height="50" width="142" />
+                <img src={`${process.env.PUBLIC_URL}/logo.png`}  alt="Logo" height="50" width="142" />
             </a>
           </div>
           <div className="col-md-8 text-center"> {/* Added 'text-center' class */}
