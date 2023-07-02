@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.navbar-nav .nav-link {
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  margin-right: 10px; /* Adjust the margin value as needed */
+  transition: text-decoration 0.3s; /* Add transition effect for smooth animation */
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline; /* Apply underline effect on hover */
+}
+
+
+.navbar-collapse {
+    justify-content: space-between;
+  }
+  
+  .language-selection {
+    display: flex;
+  }
+  
+  .language-selection button {
+    margin-left: 10px;
+  }
+  
+  .ml-auto {
+    margin-left: auto !important;
+  }
+  
+
+  .section-title {
+   
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-family: Playfair Display;
+    font-weight: 700;
+  }
+   
+    .section-text {
+    color: #FFF;
+    text-align: center;
+    margin: 25px;
+    font-size: 20px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    
+  }

@@ -1,0 +1,11 @@
+.chat-image a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s;
+  }
+  
+  .chat-image a:hover {
+    transform: scale(1.1);
+  }
+  

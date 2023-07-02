@@ -1,0 +1,51 @@
+.section-text {
+  color: #FFF;
+  text-align: center;
+  margin: 25px;
+  font-size: 20px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+} 
+
+
+
+.section-text2 {
+  color: #000000;
+  text-align: center;
+  margin: 25px;
+  font-size: 26px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  
+}
+
+
+
+.section-container{
+    
+  background-color: rgba(0, 28, 53, 100);
+}
+
+body {
+  background-color:#F3F4F6; /* Replace with desired color value */
+}
+
+
+.start-button {
+  display: block;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #3060A8;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
