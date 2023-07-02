@@ -7,10 +7,10 @@ const professorsData = [
   {
     name: 'John Smith',
     description: 'John Smith is a highly experienced professor in the field of IT. He specializes in programming languages and software development.',
-    language: 'english',
+    language: 'french',
     classType: 'IT',
     image: 'https://anthropology.fas.harvard.edu/sites/projects.iq.harvard.edu/files/styles/profile_full/public/anthropology/files/comaroff_john_0_1.jpg?m=1623336730&itok=MokzmV_s',
-    
+
   },
   {
     name: 'Emily Johnson',
@@ -117,8 +117,8 @@ const Filter = () => {
                 <div className="card-body">
                   <h5 className="card-title text-center">{professor.name}</h5>
                   <p className="card-text">{professor.description}</p>
-                  <a href="#" className="btn btn-primary">
-                    Go somewhere
+                  <a href="/GrowthYourSkillsReact/Booking" className="btn btn-primary">
+                    Start Now!
                   </a>
                 </div>
               </div>

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Prof_page from './Pages/Prof_page';
 import Cours_page from './Pages/Cours_page';
 import HowItWorks_page from './Pages/HowItWorks_page' ;
+import BookingPage from './Pages/BookingPage';
 
 
 
@@ -22,10 +23,13 @@ const router = createBrowserRouter([
   element: <App/>,
 },
 {
+  path:"/GrowthYourSkillsReact/Booking",
+  element: <BookingPage/>,
+},
+{
   path:"/GrowthYourSkillsReact",
   element: <App/>,
 },
-
 
 
 {

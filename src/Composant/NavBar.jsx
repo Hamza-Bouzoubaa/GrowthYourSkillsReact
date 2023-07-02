@@ -29,7 +29,7 @@ function Navbar() {
             <a className="nav-link text-white" href="/GrowthYourSkillsReact/HowItWorks">How it works</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="/GrowthYourSkillsReact/Cours">Get started</a>
+            <a className="nav-link text-white" href="/GrowthYourSkillsReact/Cours">Our courses</a>
           </li>
           
         </ul>

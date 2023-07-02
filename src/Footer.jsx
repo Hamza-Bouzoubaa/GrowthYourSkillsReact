@@ -12,10 +12,10 @@ function Footer() {
             </a>
           </div>
           <div className="col-md-8 text-center"> {/* Added 'text-center' class */}
-            <a className="nav-link text-white d-block mb-0" href="Open_hours.html">Open Hours</a>
-            <a className="nav-link text-white d-block mb-0" href="Pricing.html">Pricing</a>
-            <a className="nav-link text-white d-block mb-0 " href="Our_Team.html">Our Team</a>
-            <a className="nav-link text-white d-block" href="Book_appointment.html">Book Appointment</a>
+            <a className="nav-link text-white d-block mb-0" href="/GrowthYourSkillsReact/Prof">Find a mentor</a>
+            <a className="nav-link text-white d-block mb-0" href="/GrowthYourSkillsReact/HowItWorks">How it works</a>
+            <a className="nav-link text-white d-block mb-0 " href="/GrowthYourSkillsReact/Cours">Our courses</a>
+            
           </div>
           <div className="col-md-3 text-right">
             <p>123 Main Street<br />City, State ZIP<br />Phone: 555-555-5555<br />Email: info@example.com</p>
