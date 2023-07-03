@@ -117,7 +117,7 @@ const Filter = () => {
                 <div className="card-body">
                   <h5 className="card-title text-center">{professor.name}</h5>
                   <p className="card-text">{professor.description}</p>
-                  <a href="/GrowthYourSkillsReact/Booking" className="btn btn-primary">
+                  <a href="/Booking" className="btn btn-primary">
                     Start Now!
                   </a>
                 </div>

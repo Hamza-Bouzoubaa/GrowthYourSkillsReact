@@ -113,7 +113,7 @@ const BookingForm = () => {
           <label className="form-check-label">I accept the terms and conditions.</label>
         </div>
         <button className="btn btn-secondary mr-2" onClick={handlePreviousStep}>Previous</button>
-        <a href="/GrowthYourSkillsReact/">
+        <a href="/">
         <button className="btn btn-primary" disabled={!termsAccepted}>
          Book Now
       </button>
