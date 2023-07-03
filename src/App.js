@@ -10,9 +10,8 @@ import HowItWorks_page from './Pages/HowItWorks_page';
 
 function App() {
   return (
-    <div>
+    <Router>
       
-
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,7 +21,10 @@ function App() {
         <Route path="/Prof" element={<Prof_page />} />
         <Route path="/HowItWorks" element={<HowItWorks_page />} />
       </Routes>
-    </div>
+
+
+    </Router>
+   
   );
 }
 

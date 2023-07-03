@@ -23,7 +23,9 @@ function Navbar() {
       <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link text-white " href="/Prof">Find a mentor</a>
+            <link to="/Prof">
+            <a className="nav-link text-white " >Find a mentor</a>
+            </link>
           </li>
           <li className="nav-item">
             <a className="nav-link text-white" href="/HowItWorks">How it works</a>
