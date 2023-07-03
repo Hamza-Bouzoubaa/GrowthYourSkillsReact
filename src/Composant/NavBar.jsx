@@ -1,14 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    
     <nav className="navbar navbar-expand-lg navbar-dark bg-black">
-      <a className="navbar-brand mx-3" href="/">
-        <img src={`${process.env.PUBLIC_URL}/logo.png`}  alt="Logo" height="50" width="142" />
-      </a>
+      <Link className="navbar-brand mx-3" to="/">
+        <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" height="50" width="142" />
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -23,35 +23,32 @@ function Navbar() {
       <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <link to="/Prof">
-            <a className="nav-link text-white " >Find a mentor</a>
-            </link>
+            <Link to="/Prof" className="nav-link text-white">
+              Find a mentor
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="/HowItWorks">How it works</a>
+            <Link to="/HowItWorks" className="nav-link text-white">
+              How it works
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="/Cours">Our courses</a>
+            <Link to="/Cours" className="nav-link text-white">
+              Our courses
+            </Link>
           </li>
-          
         </ul>
+      </div>
+      <div className="dropdown">
+        <button className="btn btn-link text-white dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Select Language
+        </button>
+        <div className="dropdown-menu" aria-labelledby="languageDropdown">
+          <a className="dropdown-item" href="#">English</a>
+          <a className="dropdown-item" href="#">French</a>
         </div>
-            <div className="dropdown  ">
-          <button className="btn btn-link text-white dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Select Language
-          </button>
-          <div className="dropdown-menu" aria-labelledby="languageDropdown">
-            <a className="dropdown-item" href="#">English</a>
-            <a className="dropdown-item" href="#">French</a>
-          </div>
-          </div>
-         
-      
-      
+      </div>
     </nav>
-    
-    
-
   );
 }
 
