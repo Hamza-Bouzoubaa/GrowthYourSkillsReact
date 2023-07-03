@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Chat from './Chat';
+import { Link } from 'react-router-dom';
+
 
 
 const professorsData = [
@@ -76,7 +78,7 @@ const Filter = () => {
     <div className="container">
       <h1 className="px-3 mb-5 mt-5 text-center">Find your prof</h1>
       <div className="row">
-        <div className="col-lg-2 position-fixed start-0 p-3 ">
+        <div className="col-lg-2 position-fixed start-0 p-3">
           <div>
             <div>
               <label htmlFor="classType">Class Type:</label>
@@ -117,16 +119,16 @@ const Filter = () => {
                 <div className="card-body">
                   <h5 className="card-title text-center">{professor.name}</h5>
                   <p className="card-text">{professor.description}</p>
-                  <a href="/Booking" className="btn btn-primary">
+                  <Link to="/Booking" className="btn btn-primary">
                     Start Now!
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
-      <Chat></Chat>
+      <Chat />
     </div>
   );
 };
