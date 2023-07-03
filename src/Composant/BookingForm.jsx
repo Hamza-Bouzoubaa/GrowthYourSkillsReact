@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const BookingForm = () => {
   const [step, setStep] = useState(1);
@@ -113,11 +114,9 @@ const BookingForm = () => {
           <label className="form-check-label">I accept the terms and conditions.</label>
         </div>
         <button className="btn btn-secondary mr-2" onClick={handlePreviousStep}>Previous</button>
-        <a href="/">
-        <button className="btn btn-primary" disabled={!termsAccepted}>
-         Book Now
-      </button>
-</a>
+        <Link to="/" className={`btn btn-primary ${!termsAccepted ? 'disabled' : ''}`}>
+  Book Now
+</Link>
 
       </div>
     );

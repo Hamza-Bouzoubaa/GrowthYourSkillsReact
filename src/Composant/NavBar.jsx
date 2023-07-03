@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-black">
       <Link className="navbar-brand mx-3" to="/">
-        <img src={`/logo.png`} alt="Logo" height="50" width="142" />
+        <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" height="50" width="142" />
       </Link>
       <button
         className="navbar-toggler"

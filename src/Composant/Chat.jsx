@@ -9,7 +9,7 @@ function Chat() {
     <div class="d-flex justify-content-end">
       <div class="chat-image">
         <a href="#">
-          <img src={`${process.env.PUBLIC_URL}/chat.svg`} alt="Chat" height="60" width="60" />
+          <img src={`${process.env.PUBLIC_URL}/chat.svg `}alt="Chat" height="60" width="60" />
         </a>
       </div>
     </div>
